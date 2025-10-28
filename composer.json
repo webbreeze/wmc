@@ -38,12 +38,17 @@
 		"typo3/cms-sys-note": "^13.4",
 		"typo3/cms-tstemplate": "^13.4",
 		"typo3/cms-viewpage": "^13.4",
-		"typo3/cms-webhooks": "^13.4"
+		"typo3/cms-webhooks": "^13.4",
+		"webbreeze/wb_basic": "^5.0"
 	},
 	"repositories": [
 		{
 			"type": "path",
 			"url": "./packages/*"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:webbreeze/wb_basic.git"
 		}
 	]
 }

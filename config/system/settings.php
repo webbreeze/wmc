@@ -30,6 +30,17 @@ return [
             'automaticInstallation' => '1',
             'offlineMode' => '0',
         ],
+        'wb_basic' => [
+            'company' => 'Firmenname',
+            'fluidtemplatePagets1col' => 'EXT:wb_basic/Resources/Private/Templates/1col.html',
+            'footerNavigationStorageFolderUid' => '4',
+            'logoPath' => 'EXT:wb_basic/Resources/Public/Images/logo.png',
+            'mainNavigationOnlyFirstLevel' => '0',
+            'menuIconPath' => 'EXT:wb_basic/Resources/Public/Icons/hamburger.svg',
+            'serviceNavigationStorageFolderUid' => '',
+            'startpageUid' => '1',
+            'waconcookiemanagementContentelementUid' => '493',
+        ],
     ],
     'FE' => [
         'cacheHash' => [
